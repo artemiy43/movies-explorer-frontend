@@ -16,7 +16,7 @@ import SavedMovies from '../SavedMovies/SavedMovies';
 
 function App() {
   const [isLoading, setIsLoading] = React.useState(false);
-  const [loggedIn, setLoggedIn] = React.useState(true);
+  const [loggedIn, setLoggedIn] = React.useState(true);                                  // стоит true для просмотра всех страниц а так же для просмотра изменения навигации в header, если поставить false, то часть страниц будет недоступна и изменится header
   const [isInfoTooltipOpen, setInfoTooltipOpened] = React.useState(false);                //переменная для управления открытия popup infoTool
   const savedMoviesList = [                                                               // пробный массив с фильмами
     {
